@@ -1,8 +1,9 @@
 # The Cyclone 🎢
 # Codédex
 
-height = 250
-credits = 10
+height = int(input("What's your height? "))
+
+credits = int(input("How many credits do you have? "))
 
 if height >= 137 and credits >= 10:
   print("Enjoy the ride!")
